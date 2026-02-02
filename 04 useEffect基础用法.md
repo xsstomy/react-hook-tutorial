@@ -57,7 +57,7 @@
 
 以上就是 类组件“某些执行代码被分散在不同的生命周期函数中”引发的问题具体表现，而useEffect就是来解决这些问题的。  
 
-接下来开始学习useState。 
+接下来开始学习useEffect。 
 
 ## useEffect函数源码：  
 回到useEffect的学习中，首先看一下React源码中的[ReactHooks.js](https://github.com/facebook/react/blob/master/packages/react/src/ReactHooks.js)。  
@@ -157,3 +157,4 @@ componentDidMount、componentDidUpdate、componentWillUnmount ，当上述3个�
 至此，关于useEffect基础用法已经讲完。
 
 欢迎进入下一章节：[useEffect高级用法](https://github.com/puxiao/react-hook-tutorial/blob/master/05%20useEffect%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95.md)
+
